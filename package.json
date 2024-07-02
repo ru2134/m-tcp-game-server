@@ -10,13 +10,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/donkim1212/sparta-ch5-tcp-game-server.git"
+    "url": "git+https://github.com/ru2134/m-tcp-game-server.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/donkim1212/sparta-ch5-tcp-game-server/issues"
+    "url": "https://github.com/ru2134/m-tcp-game-server/issues"
   },
   "homepage": "https://github.com/ru2134/m-tcp-game-server/blob/main/README.md",
   "dependencies": {
