@@ -6,7 +6,8 @@
   "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "nodemon src/server.js"
+    "dev": "nodemon src/server.js",
+    "migrate": "node src/db/migrations/create-schema.db.js"
   },
   "repository": {
     "type": "git",
@@ -16,12 +17,15 @@
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/ru2134/m-tcp-game-server/issues"
+    "url": "https://https://github.com/ru2134/m-tcp-game-server/issues"
   },
   "homepage": "https://github.com/ru2134/m-tcp-game-server/blob/main/README.md",
   "dependencies": {
     "dotenv": "^16.4.5",
-    "protobufjs": "^7.3.2"
+    "lodash": "^4.17.21",
+    "mysql2": "^3.10.2",
+    "protobufjs": "^7.3.2",
+    "uuid": "^10.0.0"
   },
   "devDependencies": {
     "nodemon": "^3.1.4"
