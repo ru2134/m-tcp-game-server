@@ -68,7 +68,7 @@ class User {
     try {
       const now = Date.now();
 
-// 20초 동안 업데이트하지 않으면 사용자 연결을 끊습니다.
+// 20초 동안 업데이트하지 않는다면 사용자 연결을 끊습니다.
       if (now - this.updatedAt > 20000) {
         throw new CustomError(errorCodes.SOCKET_ERROR, `Socket timeout: ${[this.id]}`);
       }
